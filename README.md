@@ -53,3 +53,5 @@ Segue abaixo as APIs disponíveis no projeto (via Postman):
 [Teste Codex.postman_collection.json](https://github.com/user-attachments/files/17428313/Teste.Codex.postman_collection.json)
 
 [Teste Codex Localhost.postman_collection.json](https://github.com/user-attachments/files/17428342/Teste.Codex.Localhost.postman_collection.json)
+
+Swagger UI: https://pnet-back-kaffa-test.k1wzrw.easypanel.host/swagger-ui/index.html#/
