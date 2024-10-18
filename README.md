@@ -28,6 +28,7 @@ https://github.com/tmarchi4/Kaffa.git
 Feito isso, acesse o projeto:
 ```
 cd Kaffa
+```
 É preciso compilar o código e baixar as dependências do projeto:
 ```
 mvn clean package
