@@ -10,6 +10,7 @@ import java.util.UUID;
 
 import org.springframework.stereotype.Repository;
 
+import com.kaffa.dto.ToDoDescriptionDto;
 import com.kaffa.dto.ToDoListDto;
 import com.kaffa.model.ToDoListModel;
 
@@ -41,7 +42,7 @@ public class ToDoListRepository {
 
 	}
 
-	public void createTasks(Connection connection, ToDoListDto dto) throws SQLException {
+	public void createTasks(Connection connection, ToDoDescriptionDto dto) throws SQLException {
 
 		String query = "INSERT INTO TASKS (id, description, status) VALUES (?, ?, ?)";
 

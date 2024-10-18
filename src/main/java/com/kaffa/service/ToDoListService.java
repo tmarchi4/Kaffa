@@ -12,6 +12,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import com.kaffa.dto.ResultDto;
+import com.kaffa.dto.ToDoDescriptionDto;
 import com.kaffa.dto.ToDoListDto;
 import com.kaffa.model.ToDoListModel;
 import com.kaffa.repository.ToDoListRepository;
@@ -63,7 +64,7 @@ public class ToDoListService {
 
 	}
 
-	public ResponseEntity<?> createTask(ToDoListDto dto) {
+	public ResponseEntity<?> createTask(ToDoDescriptionDto dto) {
 		System.out.println("[X] Create Task");
 
 		Connection connection = null;
