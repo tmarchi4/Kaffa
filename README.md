@@ -12,6 +12,7 @@ O projeto é uma aplicação back-end Java, utilizando do framework Spring Boot,
 Antes de rodar a aplicação é preciso garantir que as seguintes dependências estejam corretamente instaladas:
 ```
 Java 21
+Maven 3.3.3 
 ```
 
 ## Preparando ambiente
@@ -24,6 +25,9 @@ Primeiramente, faça o clone do repositório:
 ```
 https://github.com/tmarchi4/Kaffa.git
 ```
+Feito isso, acesse o projeto:
+```
+cd Kaffa
 É preciso compilar o código e baixar as dependências do projeto:
 ```
 mvn clean package
