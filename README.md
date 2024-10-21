@@ -1,5 +1,3 @@
-Projeto utilizado para realizar o teste técnico: Kaffa Mobile - Pre-qualification test (v1.10) - Codex
-
 # Visão geral
 
 O projeto é uma aplicação back-end Java, utilizando do framework Spring Boot, solucionando os problemas propostos através de APIs
